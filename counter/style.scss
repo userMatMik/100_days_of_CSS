@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+// Variables
+
+$bg-clr: #293462;
+$primary: #D61C4E;
+$secondary: #FEB139;
+$accent:#FFF80A;
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bg-clr;
+    place-items: center;
+    text-align: center;
+    display: grid;
+    
+}
+
+.app {
+    background-color: #2a345e;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: $primary;
+
+    }
+
+    span {
+        font-size: 10rem;
+        font-weight: 700;
+        color: $secondary
+    }
+
+    .btn {
+        background-color: $primary;
+        border: none;
+        font-family: inherit;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $secondary;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .option {
+        margin-top: 2rem;
+    }
+
+    label {
+        display: block;
+        color: $accent;
+        text-transform: uppercase;
+        font-size: 0.65rem;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    input {
+        background-color: $secondary;
+        border: none;
+        padding: 10px 15px;
+        font-family: inherit;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: $primary;
+        width: 100%;
+
+        &:focus {
+            outline: 2px solid $accent;
+        }
+    }
+
+}

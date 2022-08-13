@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #293462;
+  place-items: center;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.app {
+  background-color: #2a345e;
+}
+
+.app h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #D61C4E;
+}
+
+.app span {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #FEB139;
+}
+
+.app .btn {
+  background-color: #D61C4E;
+  border: none;
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FEB139;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.app .option {
+  margin-top: 2rem;
+}
+
+.app label {
+  display: block;
+  color: #FFF80A;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.app input {
+  background-color: #FEB139;
+  border: none;
+  padding: 10px 15px;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #D61C4E;
+  width: 100%;
+}
+
+.app input:focus {
+  outline: 2px solid #FFF80A;
+}
+/*# sourceMappingURL=style.css.map */
