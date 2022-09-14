@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap");
+*,
+*::after,
+*::before {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #1A2B34;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fl-gap-s {
+  gap: 0.2rem;
+}
+
+.fl-gap-m {
+  gap: 1rem;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button {
+  color: white;
+  border-radius: 5px;
+  background-color: #EA5E5E;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  padding: 0.5rem 1.3rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #56B3B4;
+}
+
+.app {
+  width: 400px;
+  border-radius: 15px;
+  background-color: #465862;
+  padding: 3rem 2rem;
+}
+
+.app .preview {
+  padding: 2rem;
+  background-color: #65757e;
+  border: 1px solid #1A2B34;
+  border-radius: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.app input[type=text] {
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.app .submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.test {
+  font-size: 2rem;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
