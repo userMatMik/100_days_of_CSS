@@ -10,9 +10,7 @@
 }
 
 $red: #EA5E5E;
-$yellow: #F7BA3E;
 $blue: #56B3B4;
-$purple: #BF85BF;
 $background: #1A2B34;
 $gray:  #465862;
 
@@ -37,6 +35,10 @@ body {
 
 .fl-gap-m {
     gap: 1rem;
+}
+
+.fl-jc-center {
+    justify-content: center;
 }
 
 .unselectable {
@@ -71,11 +73,21 @@ button {
     padding: 3rem 2rem;
 
     .preview {
-        padding: 2rem;
+        padding: 2rem 0.6rem;
         background-color: #65757e;
         border: 1px solid $background;
         border-radius: $border-rad-s;
         flex-grow: 1;
+
+        span {
+            font-size: 2rem;
+            display: block;
+        }
+
+    }
+
+    form {
+        position: relative;
     }
 
     input[type=text] {
@@ -93,12 +105,38 @@ button {
         margin-top: 2rem;
         width: 100%;
     }
+
+    .error-message {
+        position: absolute;
+        top: 7px;
+        left: 0;
+        // transform: translateX(-50%);
+        font-size: 0.8rem;
+        color: $red;
+        display: none;
+
+    }
+
+    .show-error {
+        display: block;
+    }
 }
 
-.test {
-    font-size: 2rem;
+.hide-app {
+    display: none;
+}
+
+.success {
+    font-size: 4rem;
+    display: none;
+}
+
+.show-success {
     display: block;
 }
+
+
+
 
 
 

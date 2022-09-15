@@ -10,15 +10,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="app">
+    <div id="app" class="app">
         <div class="flex fl-gap-m">
-            <div id="preview" class="preview flex fl-gap-s unselectable"></div>
+            <div id="preview" class="preview flex fl-gap-s fl-jc-center unselectable"></div>
             <button id="reload"class="reload"><i class="fa-solid fa-xl fa-rotate-right"></i></button>
         </div>
         <form>
             <input type="text" placeholder="Enter text from image above">
             <button id="submit" class="submit">Submit</button>
+            <div id="error-message"class="error-message">Cannot be empty</div>
         </form>
     </div>
+    <div id="success"class="success">👏</div>
 </body>
 </html>
